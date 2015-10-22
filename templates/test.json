@@ -1,0 +1,160 @@
+[
+  {
+    "project": "SAND",
+    "repository": ["testfork1"],
+    "jenkins_hook": true,
+    "additional_branches": [
+      "develop",
+      "stagingme"
+    ],
+    "forked_from": {
+      "project": "SAND",
+      "repository": "testalruiza911-forkina",
+      "sync": false
+    },
+    "userpermissions": [
+      {
+        "user": "alruiz",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "dipascual",
+        "permission": "REPO_ADMIN"
+      }
+    ],
+    "grouppermissions": [
+      {
+        "group": "html",
+        "permission": "REPO_ADMIN"
+      }
+    ],
+    "branchpermissions": [
+      {
+        "groups": ["html"],
+        "users": ["alruiz"],
+        "branch": "master"
+      },
+      {
+        "users": ["dipascual"],
+        "pattern": "nanan"
+      }
+    ]
+  },
+  {
+    "project": "PROJ",
+    "repository": ["20150057-uvalencia-govlab-javascript-client"],
+    "jenkins_hook": false,
+    "forked_from": {
+      "project": "COMP",
+      "repository": "govlab-javascript-client",
+      "sync": false
+    },
+    "userpermissions": [
+      {
+        "user": "lnabergoi",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "jcollazos",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "fvargas",
+        "permission": "REPO_ADMIN"
+      }
+    ]
+  },
+  {
+    "project": "PROJ",
+    "repository": ["20150057-uvalencia-govlab"],
+    "jenkins_hook": false,
+    "forked_from": {
+      "project": "COMP",
+      "repository": "govlab",
+      "sync": false
+    },
+    "userpermissions": [
+      {
+        "user": "lnabergoi",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "jcollazos",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "fvargas",
+        "permission": "REPO_ADMIN"
+      }
+    ]
+  },
+  {
+    "project": "PROJ",
+    "repository": ["20150057-uvalencia-credential-delivery-Standard"],
+    "jenkins_hook": false,
+    "forked_from": {
+      "project": "COMP",
+      "repository": "credential-delivery-12.4.0.x-standard",
+      "sync": false
+    },
+    "userpermissions": [
+      {
+        "user": "lnabergoi",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "jcollazos",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "fvargas",
+        "permission": "REPO_ADMIN"
+      }
+    ]
+  },
+    {
+    "project": "SAND",
+    "repository": ["testmoving1"],
+    "jenkins_hook": true,
+    "archived": false,
+    "additional_branches": [
+      "develop",
+      "stagingme"
+    ],
+    "forked_from": {
+      "project": "SAND",
+      "repository": "testalruiza911-forkina",
+      "sync": false
+    },
+    "userpermissions": [
+      {
+        "user": "alruiz",
+        "permission": "REPO_ADMIN"
+      },
+      {
+        "user": "dipascual",
+        "permission": "REPO_ADMIN"
+      }
+    ],
+    "grouppermissions": [
+      {
+        "group": "html",
+        "permission": "REPO_ADMIN"
+      }
+    ],
+    "branchpermissions": [
+      {
+        "groups": ["html"],
+        "users": ["alruiz"],
+        "branch": "master"
+      },
+      {
+        "users": ["dipascual"],
+        "pattern": "nanan"
+      }
+    ]
+  }
+
+]
+
+
